@@ -24,7 +24,7 @@ Use:
 gDMR is designed to be combined with external code describing the linear system (linear operator),
 complied with gDMR to create a shared library, and a control program, linked against this library. 
 An example showing this expected use is included as the progDMR.c and testLS.cu files. To build the 
-complete system in a clean directory type 
+complete system in a clean directory, assuming cuda toolkit is installed, type
 
 	make gDMR 
 
